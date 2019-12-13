@@ -415,7 +415,7 @@ public class ArvoreBinaria {
 		String parametro;
 		String tipodeOperacao =" ";
 		JOptionPane.showMessageDialog(null,"Arvore Binaria \n Aceita entrada de valores inteiros"," Arvore Binaria",JOptionPane.PLAIN_MESSAGE);
-		System.out.println("**Historico de opera��es**");
+		System.out.println("**Historico de operações**");
 		while (tipodeOperacao != null){//inicio do loop
 			tipodeOperacao = JOptionPane.showInputDialog("Entre com o tipo de operacao" +
 					" que deseja fazer:\n [1] Busca \n [2] Insercao \n [3] " +
